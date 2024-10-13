@@ -8,7 +8,29 @@ Este é um projeto simples de rastreamento de encomendas implementado em Java. O
 
 ## Estrutura do Projeto
 
-rastreador-encomendas/ │ ├── src/ │ ├── main/ │ │ ├── java/ │ │ │ ├── entities/ // Pacote para as entidades │ │ │ ├── interfaces/ // Pacote para as interfaces dos serviços │ │ │ ├── services/ // Pacote para as implementações dos serviços │ │ │ ├── database/ // Pacote para a conexão com o banco de dados │ │ │ └── main/ // Pacote para a classe principal │ │ └── resources/ // Recursos adicionais (opcional) │ └── test/ // Pacote para testes (opcional) │ └── pom.xml // Configuração do projeto Maven
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── entities/                           // Pacote para as entidades
+│   │   │   │   ├── Usuario.java                    // Classe para a entidade Usuário
+│   │   │   │   ├── Encomenda.java                  // Classe para a entidade Encomenda
+│   │   │   │   └── Status.java                     // Classe para a entidade Status
+│   │   │   ├── interfaces/                          // Pacote para as interfaces dos serviços
+│   │   │   │   ├── UsuarioService.java             // Interface para serviços de Usuário
+│   │   │   │   ├── EncomendaService.java           // Interface para serviços de Encomenda
+│   │   │   │   └── StatusService.java              // Interface para serviços de Status
+│   │   │   ├── services/                           // Pacote para as implementações dos serviços
+│   │   │   │   ├── UsuarioServiceImpl.java         // Implementação do serviço de Usuário
+│   │   │   │   ├── EncomendaServiceImpl.java       // Implementação do serviço de Encomenda
+│   │   │   │   └── StatusServiceImpl.java          // Implementação do serviço de Status
+│   │   │   ├── database/                           // Pacote para a conexão com o banco de dados
+│   │   │   │   └── DatabaseConnection.java         // Classe para gerenciar a conexão com o MySQL
+│   │   │   └── Main.java                           // Classe principal
+│   │   └── resources/                              // Recursos adicionais (opcional)
+│   └── test/                                       // Pacote para testes (opcional)
+│
+├── pom.xml (ou build.gradle)                       // Configuração do projeto
+└── README.md                                       // Documentação do projeto
 
 sql
 
