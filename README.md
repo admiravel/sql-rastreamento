@@ -1,7 +1,3 @@
-sse arquivo pode ser usado para documentar seu projeto. Ele deve conter informações sobre como configurar, executar e entender o projeto.
-
-markdown
-
 # Rastreador de Encomendas
 
 Este é um projeto simples de rastreamento de encomendas implementado em Java. O projeto utiliza MySQL como banco de dados para armazenar informações sobre usuários, encomendas e status.
